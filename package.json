@@ -1,0 +1,27 @@
+{
+  "name": "bolivia-presidents",
+  "version": "1.0.0",
+  "description": "Get random Bolivian presidents.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wildergonzo/bolivia-presidents.git"
+  },
+  "keywords": [
+    "random",
+    "bolivia",
+    "presidents"
+  ],
+  "author": "Wilder Gonzales <wilder.gonzales@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wildergonzo/bolivia-presidents/issues"
+  },
+  "homepage": "https://github.com/wildergonzo/bolivia-presidents#readme",
+  "dependencies": {
+    "unique-random-array": "^1.0.0"
+  }
+}
