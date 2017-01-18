@@ -18,5 +18,337 @@
   {
     "id": 5,
     "name": "Pedro Blanco Soto"
+  },
+  {
+    "id": 6,
+    "name": "José Miguel de Velasco Franco"
+  },
+  {
+    "id": 7,
+    "name": "Andrés de Santa Cruz y Calahumana"
+  },
+  {
+    "id": 8,
+    "name": "José Miguel de Velasco Franco"
+  },
+  {
+    "id": 9,
+    "name": "Sebastián Ágreda"
+  },
+  {
+    "id": 10,
+    "name": "Mariano Enrique Calvo"
+  },
+  {
+    "id": 11,
+    "name": "José Ballivián y Segurola"
+  },
+  {
+    "id": 12,
+    "name": "Eusebio Guilarte Vera"
+  },
+  {
+    "id": 13,
+    "name": "José Miguel de Velasco Franco"
+  },
+  {
+    "id": 14,
+    "name": "Manuel Isidoro Belzu Humerez"
+  },
+  {
+    "id": 15,
+    "name": "Jorge Córdova"
+  },
+  {
+    "id": 16,
+    "name": "José María Linares Lizarazu"
+  },
+  {
+    "id": 17,
+    "name": "Junta Gubernativa de 1861: José María de Achá Valiente, Ruperto Fernández, Manuel Antonio Sánchez"
+  },
+  {
+    "id": 18,
+    "name": "José María de Achá Valiente"
+  },
+  {
+    "id": 19,
+    "name": "Mariano Melgarejo Valencia"
+  },
+  {
+    "id": 20,
+    "name": "Agustín Morales Hernández"
+  },
+  {
+    "id": 21,
+    "name": "Tomás Frías Ametller"
+  },
+  {
+    "id": 22,
+    "name": "Adolfo Ballivián Coll"
+  },
+  {
+    "id": 23,
+    "name": "Tomás Frías Ametller"
+  },
+  {
+    "id": 24,
+    "name": "Hilarión Daza Groselle"
+  },
+  {
+    "id": 25,
+    "name": "Consejo de Ministros: Pedro José Domingo de Guerra"
+  },
+  {
+    "id": 26,
+    "name": "Narciso Campero Leyes"
+  },
+  {
+    "id": 27,
+    "name": "Gregorio Pacheco Leyes"
+  },
+  {
+    "id": 28,
+    "name": "Aniceto Arce Ruiz"
+  },
+  {
+    "id": 29,
+    "name": "Mariano Baptista Caserta"
+  },
+  {
+    "id": 30,
+    "name": "Severo Fernández Alonso Caballero"
+  },
+  {
+    "id": 31,
+    "name": "Junta de Gobierno: José Manuel Pando Solares, Serapio Reyes Ortiz, Macario Pinilla Vargas"
+  },
+  {
+    "id": 32,
+    "name": "José Manuel Pando Solares"
+  },
+  {
+    "id": 33,
+    "name": "Ismael Montes Gamboa"
+  },
+  {
+    "id": 34,
+    "name": "Eliodoro Villazón Montaño"
+  },
+  {
+    "id": 35,
+    "name": "Ismael Montes Gamboa"
+  },
+  {
+    "id": 36,
+    "name": "José Gutiérrez Guerra"
+  },
+  {
+    "id": 37,
+    "name": "Junta de Gobierno de Transición: Bautista Saavedra Mallea, José María Escalier, José Manuel Ramírez"
+  },
+  {
+    "id": 38,
+    "name": "Bautista Saavedra Mallea"
+  },
+  {
+    "id": 39,
+    "name": "Felipe Segundo Guzmán"
+  },
+  {
+    "id": 40,
+    "name": "Hernando Siles Reyes"
+  },
+  {
+    "id": 41,
+    "name": "Consejo de ministros"
+  },
+  {
+    "id": 42,
+    "name": "Carlos Blanco Galindo"
+  },
+  {
+    "id": 43,
+    "name": "Daniel Salamanca Urey"
+  },
+  {
+    "id": 44,
+    "name": "José Luis Tejada Sorzano"
+  },
+  {
+    "id": 45,
+    "name": "José David Toro Ruilova"
+  },
+  {
+    "id": 46,
+    "name": "Germán Busch Becerra"
+  },
+  {
+    "id": 47,
+    "name": "Carlos Quintanilla Quiroga"
+  },
+  {
+    "id": 48,
+    "name": "Enrique Peñaranda Castillo"
+  },
+  {
+    "id": 49,
+    "name": "Gualberto Villarroel López"
+  },
+  {
+    "id": 50,
+    "name": "Néstor Guillén Olmos"
+  },
+  {
+    "id": 51,
+    "name": "Tomás Monje Gutiérrez"
+  },
+  {
+    "id": 52,
+    "name": "Enrique Hertzog Garaizabal"
+  },
+  {
+    "id": 53,
+    "name": "Mamerto Urriolagoitia Harriague"
+  },
+  {
+    "id": 54,
+    "name": "Hugo Ballivián Rojas"
+  },
+  {
+    "id": 55,
+    "name": "Víctor Paz Estenssoro"
+  },
+  {
+    "id": 56,
+    "name": "Hernán Siles Zuazo"
+  },
+  {
+    "id": 57,
+    "name": "Víctor Paz Estenssoro"
+  },
+  {
+    "id": 58,
+    "name": "Víctor Paz Estenssoro"
+  },
+  {
+    "id": 59,
+    "name": "René Barrientos Ortuño"
+  },
+  {
+    "id": 60,
+    "name": "Co-presidencia: Alfredo Ovando Candía, René Barrientos Ortuño"
+  },
+  {
+    "id": 61,
+    "name": "Alfredo Ovando Candía"
+  },
+  {
+    "id": 62,
+    "name": "René Barrientos Ortuño"
+  },
+  {
+    "id": 63,
+    "name": "Luis Adolfo Siles Salinas"
+  },
+  {
+    "id": 64,
+    "name": "Alfredo Ovando Candía"
+  },
+  {
+    "id": 65,
+    "name": "Juan José Torres González"
+  },
+  {
+    "id": 66,
+    "name": "Hugo Banzer Suárez"
+  },
+  {
+    "id": 67,
+    "name": "Juan Pereda Asbún"
+  },
+  {
+    "id": 68,
+    "name": "David Padilla Arancibia"
+  },
+  {
+    "id": 69,
+    "name": "Walter Guevara Arze"
+  },
+  {
+    "id": 70,
+    "name": "Alberto Natusch Busch"
+  },
+  {
+    "id": 71,
+    "name": "Lidia Gueiler Tejada"
+  },
+  {
+    "id": 72,
+    "name": "Luis García Meza Tejada"
+  },
+  {
+    "id": 73,
+    "name": "Junta Militar: Celso Torrelio Villa, Waldo Bernal Pereira, Oscar Pammo Rodríguez"
+  },
+  {
+    "id": 74,
+    "name": "Celso Torrelio Villa"
+  },
+  {
+    "id": 75,
+    "name": "Junta Militar: Angel Mariscal, Natalio Morales Mosquera, Oscar Pammo Rodríguez"
+  },
+  {
+    "id": 76,
+    "name": "Guido Vildoso Calderón"
+  },
+  {
+    "id": 77,
+    "name": "Hernán Siles Zuazo"
+  },
+  {
+    "id": 78,
+    "name": "Víctor Paz Estenssoro"
+  },
+  {
+    "id": 79,
+    "name": "Jaime Paz Zamora"
+  },
+  {
+    "id": 80,
+    "name": "Gonzalo Sánchez de Lozada"
+  },
+  {
+    "id": 81,
+    "name": "Hugo Banzer Suárez"
+  },
+  {
+    "id": 82,
+    "name": "Jorge Quiroga Ramírez"
+  },
+  {
+    "id": 83,
+    "name": "Gonzalo Sánchez de Lozada"
+  },
+  {
+    "id": 84,
+    "name": "Carlos D. Mesa Gisbert"
+  },
+  {
+    "id": 85,
+    "name": "Eduardo Rodríguez Veltzé"
+  },
+  {
+    "id": 86,
+    "name": "Evo Morales Ayma"
+  },
+  {
+    "id": 87,
+    "name": "Evo Morales Ayma"
+  },
+  {
+    "id": 88,
+    "name": "Evo Morales Ayma"
   }
 ]
