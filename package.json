@@ -20,8 +20,5 @@
   "bugs": {
     "url": "https://github.com/wildergonzo/bolivia-presidents/issues"
   },
-  "homepage": "https://github.com/wildergonzo/bolivia-presidents#readme",
-  "dependencies": {
-    "unique-random-array": "^1.0.0"
-  }
+  "homepage": "https://github.com/wildergonzo/bolivia-presidents#readme"
 }

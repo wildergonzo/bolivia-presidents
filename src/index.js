@@ -1,7 +1,19 @@
-var uniqueRandomArray = require('unique-random-array');
-var presidentNames = require('./bolivia-presidents.json');
+var data = require('./bolivia-presidents.json');
+let names = [];
+
+function getNames(json) {
+	for(let i in json){
+		names.push(json[i].name);
+	}
+	return names;
+}
+
+function getRandom(json) {
+	return data[Math.floor(Math.random() * data.length)];
+}
 
 module.exports = {
-	all: presidentNames,
-	random: uniqueRandomArray(presidentNames)
-};
+	all: data,
+	names: getNames(data),
+	random: getRandom(data)
+}
