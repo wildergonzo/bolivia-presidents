@@ -1,11 +1,9 @@
 var data = require('./bolivia-presidents.json');
-let names = [];
 
 function getNames(json) {
-	for(let i in json){
-		names.push(json[i].name);
-	}
-	return names;
+	return data.map(function (item){
+		return item.name;
+	});
 }
 
 function getRandom(json) {
