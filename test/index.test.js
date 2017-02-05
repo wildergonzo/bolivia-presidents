@@ -9,7 +9,7 @@ describe('bolivia-presidents', function(){
 
 			function isArrayOfStrings(array){
 				return array.every(function(item){
-					return typeof item === 'string';
+					return typeof item === 'number';
 				});
 			}
 		});
