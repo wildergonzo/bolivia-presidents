@@ -4,7 +4,7 @@
   "description": "Get random Bolivian presidents.",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test"
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,9 @@
   "bugs": {
     "url": "https://github.com/wildergonzo/bolivia-presidents/issues"
   },
-  "homepage": "https://github.com/wildergonzo/bolivia-presidents#readme"
+  "homepage": "https://github.com/wildergonzo/bolivia-presidents#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0"
+  }
 }
