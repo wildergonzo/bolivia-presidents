@@ -6,7 +6,9 @@
   "scripts": {
     "test": "mocha test"
   },
-  "pre-commit": "npm run test",
+  "pre-commit": {
+    "run": ["test"]
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wildergonzo/bolivia-presidents.git"
