@@ -4,7 +4,7 @@
   "description": "Get random Bolivian presidents.",
   "main": "dist/index.js",
   "scripts": {
-    "test": "mocha --compilers js:babel-core/register test",
+    "test": "mocha --compilers js:babel-core/register ./test",
     "prebuild": "rm -rf dist",
     "build": "babel --copy-files --out-dir dist src"
   },

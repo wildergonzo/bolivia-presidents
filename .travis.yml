@@ -8,9 +8,7 @@ notifications:
 node_js:
   - "stable"
 before_install:
-  - npm i -g npm@^2.0.0
-before_script:
-  - npm prune
+  - npm i -g npm@^3.0.0
 script:
   - npm run test
   - npm run build
