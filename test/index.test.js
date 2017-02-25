@@ -1,5 +1,5 @@
 var expect = require('chai').expect;
-var presidents = require('../dist/index.js');
+var presidents = require('../src/index.js');
 
 describe('bolivia-presidents', function(){
 
