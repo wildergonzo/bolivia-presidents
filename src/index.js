@@ -1,4 +1,4 @@
-var data = require('./bolivia-presidents.json');
+import data from './bolivia-presidents.json';
 
 function getNames(json) {
 	return data.map(function (item){
