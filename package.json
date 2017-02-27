@@ -6,7 +6,10 @@
   "scripts": {
     "test": "mocha --compilers js:babel-register",
     "prebuild": "rm -rf dist",
-    "build": "babel --copy-files --out-dir dist src"
+    "build": "npm-run-all --parallel build:main build:umd.min",
+    "build:main": "babel --copy-files --out-dir dist src",
+    "build:umd": "webpack --output-filename index.umd.js",
+    "build:umd.min": "webpack --output-filename index.umd.min.js -p"
   },
   "repository": {
     "type": "git",
@@ -25,13 +28,17 @@
   "homepage": "https://github.com/wildergonzo/bolivia-presidents#readme",
   "devDependencies": {
     "babel-cli": "^6.23.0",
+    "babel-loader": "^6.3.2",
     "babel-preset-es2015": "^6.22.0",
     "babel-register": "^6.23.0",
     "chai": "^3.5.0",
     "ghooks": "^2.0.0",
     "install": "^0.8.7",
+    "json-loader": "^0.5.4",
     "mocha": "^3.2.0",
-    "npm": "^4.3.0"
+    "npm": "^4.3.0",
+    "npm-run-all": "^4.0.2",
+    "webpack": "^2.2.1"
   },
   "config": {
     "ghooks": {
