@@ -4,6 +4,7 @@
   "description": "Get random Bolivian presidents.",
   "main": "dist/index.js",
   "scripts": {
+    "check-coverage": "istanbul check-coverage --statements 100 --branches 70 --functions 80 --lines 100",
     "test": "istanbul cover _mocha -- -R spec test/*.test.js --compilers js:babel-register",
     "prebuild": "rm -rf dist",
     "build": "npm-run-all --parallel build:main build:umd.min",
@@ -43,7 +44,7 @@
   },
   "config": {
     "ghooks": {
-      "pre-commit": "npm run test"
+      "pre-commit": "npm run test && npm run check-coverage"
     }
   }
 }
