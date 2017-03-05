@@ -4,6 +4,7 @@
   "description": "Get random Bolivian presidents.",
   "main": "dist/index.js",
   "scripts": {
+    "commit": "git-cz",
     "check-coverage": "istanbul check-coverage --statements 100 --branches 70 --functions 80 --lines 100",
     "test": "istanbul cover _mocha -- -R spec test/*.test.js --compilers js:babel-register",
     "prebuild": "rm -rf dist",
@@ -33,6 +34,8 @@
     "babel-preset-es2015": "^6.22.0",
     "babel-register": "^6.23.0",
     "chai": "^3.5.0",
+    "commitizen": "^2.9.6",
+    "cz-conventional-changelog": "^2.0.0",
     "ghooks": "^2.0.0",
     "install": "^0.8.7",
     "istanbul": "^1.0.0-alpha",
@@ -45,6 +48,9 @@
   "config": {
     "ghooks": {
       "pre-commit": "npm run test && npm run check-coverage"
+    },
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
     }
   }
 }
