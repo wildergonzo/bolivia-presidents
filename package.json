@@ -1,6 +1,6 @@
 {
   "name": "bolivia-presidents",
-  "version": "1.1.0",
+  "version": "0.0.0-development",
   "description": "Get random Bolivian presidents.",
   "main": "dist/index.js",
   "scripts": {
@@ -11,11 +11,12 @@
     "build": "npm-run-all --parallel build:main build:umd.min",
     "build:main": "babel --copy-files --out-dir dist src",
     "build:umd": "webpack --output-filename index.umd.js",
-    "build:umd.min": "webpack --output-filename index.umd.min.js -p"
+    "build:umd.min": "webpack --output-filename index.umd.min.js -p",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wildergonzo/bolivia-presidents.git"
+    "url": "https://github.com/wildergonzo/bolivia-presidents.git"
   },
   "keywords": [
     "random",
@@ -43,7 +44,8 @@
     "mocha": "^3.2.0",
     "npm": "^4.3.0",
     "npm-run-all": "^4.0.2",
-    "webpack": "^2.2.1"
+    "webpack": "^2.2.1",
+    "semantic-release": "^6.3.2"
   },
   "config": {
     "ghooks": {
