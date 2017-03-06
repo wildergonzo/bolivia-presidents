@@ -24,6 +24,14 @@ describe('bolivia-presidents', function(){
 			var randomItem = presidents.random;
 			expect(presidents.all).to.include(randomItem);
 		});
+
+		it('should return an array of random items if given a number', function(){
+			var randomItems = presidents.nrandom(3);
+			expect(randomItems).to.have.length(3);
+			randomItems.forEach(function(item){
+				expect(presidents.all).to.include(item);
+			});
+		});
 	});
 
 });
